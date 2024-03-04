@@ -1,0 +1,75 @@
+.btn {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: 60px;
+    transition: all 0.3s;
+    margin-bottom: 40px;
+}
+
+.btn:hover {
+    background-color: rgb(202, 202, 202);
+    color: white;
+}
+
+.btn i {
+    margin-right: 10px;
+}
+
+.countImgInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.countInfo h1 {
+    margin-bottom: 30px;
+}
+
+.countImg {
+    width: 540px;
+    height: 401px;
+}
+
+.countImg img {
+    border-radius: 10px;
+}
+
+.infos {
+    width: 598px;
+    height: 290px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-info p {
+    margin-bottom: 10px;
+}
+
+.right-info p {
+    margin-bottom: 10px;
+}
+
+.border-countries {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.border-countries button {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+
+.border-countries button:hover {
+    background-color: rgb(170, 170, 170);
+    color: #fff;
+}
